@@ -1,5 +1,5 @@
 {
-  "name": "Proyecto1",
+  "name": "Proyecto2",
   "version": "1.0.0",
   "author": "Maria Laura Alfaro - Kevin Campos Vargas",
   "private": true,
@@ -10,7 +10,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxt/content": "^1.14.0",
+    "@nuxt/content": "^1.15.1",
     "core-js": "^3.15.1",
     "nuxt": "^2.15.8"
   },
