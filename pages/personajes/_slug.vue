@@ -20,6 +20,7 @@
     <label>Book of Death</label>{{personaje.Book_of_Death}}<br> 
     <label>Death Chapter</label>{{personaje.Death_Chapter}}<br> 
     <label>Book Intro Chapter</label>{{personaje.Book_Intro_Chapter}}<br> 
+	<image src="/static/images/personajes/">{{personaje.image}}</image><br> 
 
 
    </div>
