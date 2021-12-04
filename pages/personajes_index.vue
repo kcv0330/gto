@@ -12,8 +12,8 @@
 <template>
   <div class="container">
    <HeaderView />
-   <h3 style="margin-top: 15px">Amazon Top 50 Bestselling Books 2009 - 2019</h3>
-     <p>Dataset on Amazon's Top 50 bestselling books from 2009 to 2019. Contains 550 books, data has been categorized into fiction and non-fiction using Goodreads</p>
+   <h3 style="margin-top: 15px">Personajes de Games of Thrones</h3>
+     <p>El elenco de Game of Thrones</p>
    <ul class="lis_prin">
      <li v-for="character in characters" :key="character.slug">
        <NuxtLink :to="{ name: 'personajes-slug', params: {slug: character.slug}}">{{character.Name}}</NuxtLink>

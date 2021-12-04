@@ -12,8 +12,8 @@
 <template>
   <div class="container">
    <HeaderView />
-   <h3 style="margin-top: 15px">Amazon Top 50 Bestselling Books 2009 - 2019</h3>
-     <p>Dataset on Amazon's Top 50 bestselling books from 2009 to 2019. Contains 550 books, data has been categorized into fiction and non-fiction using Goodreads</p>
+   <h3 style="margin-top: 15px">Fortalezas de Games of Thrones</h3>
+     <p>Descubre cuáles son las mejores locaciones de grabación de la serie éxito del momento Game Of Thrones</p>
    <ul class="lis_prin">
      <li v-for="house in houses" :key="house.slug">
        <NuxtLink :to="{ name: 'casas-slug', params: {slug: house.slug}}">{{house.name}}</NuxtLink>

@@ -12,8 +12,8 @@
 <template>
   <div class="container">
    <HeaderView />
-   <h3 style="margin-top: 15px">Amazon Top 50 Bestselling Books 2009 - 2019</h3>
-     <p>Dataset on Amazon's Top 50 bestselling books from 2009 to 2019. Contains 550 books, data has been categorized into fiction and non-fiction using Goodreads</p>
+   <h3 style="margin-top: 15px">Batallas Games of Thrones</h3>
+     <p>Games of Thrones</p>
    <ul class="lis_prin">
      <li v-for="battle in battles" :key="battle.slug">
        <NuxtLink :to="{ name: 'batallas-slug', params: {slug: battle.slug}}">{{battle.name}}</NuxtLink>
